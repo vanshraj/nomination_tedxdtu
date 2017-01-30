@@ -48,8 +48,26 @@ $(document).ready(function(){
     var $validator = $('.wizard-card form').validate({
 		  rules: {
 		    firstname: {
-		      required: true,
-		      minlength: 3
+          required: true,
+          minlength: 3
+        },
+        institution: {
+          required: true,
+          minlength: 3
+        },
+        street_number: {
+          required: true
+        },
+        street_name: {
+          required: true
+        },
+        attend_reason: {
+          minlength: 3,
+          required: true
+        },
+        idea_worth: {
+          minlength: 3,
+		      required: true
 		    },
             nomineeFirstname: {
               required: true,
