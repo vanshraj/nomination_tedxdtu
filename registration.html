@@ -37,7 +37,7 @@
 		                        	<h3 class="wizard-title">
 		                        	   Registration Form
 		                        	</h3>
-									<h5>Use this form to register for TEDxDTU Conference.</h5>
+									<h5>Use this form to register for TEDxDTU 2017.</h5>
 		                    	</div>
 								<div class="wizard-navigation">
 									<ul>
@@ -50,7 +50,7 @@
 		                        <div class="tab-content">
 		                            <div class="tab-pane" href="#Nominator" id="Nominator">
 		                              <div class="row">
-		                                	<h4 class="info-text"> Let's start with the basic information about you.</h4>
+		                                	<h4 class="info-text"> Let's start with the some basic information about you.</h4>
 		                                	<div class="col-sm-6 ">
 												<div class="input-group">
 													<span class="input-group-addon">
@@ -118,19 +118,19 @@
 		                                		<!-- <div class="input-group">
 													<div class="form-group"> -->
 			                                            <label class="control-label">Date Of Birth  <small>(required)</small></label>
-			                                            <input  data-large-default="true" data-large-mode="true" id="date_of_birth" name="date_of_birth" type="text" class="form-control">
+			                                            <input data-modal="true" data-large-default="true" data-large-mode="true" id="date_of_birth" name="date_of_birth" type="text" class="form-control">
 			                                        <!-- </div>
 			                                    </div> -->
 		                                	</div>
 		                                    <div class="col-sm-7 col-sm-offset-1">
 	                                        	<div class="form-group label-floating">
-	                                        		<label class="control-label">Street Name</label>
+	                                        		<label class="control-label">Address</label>
 	                                    			<input name="street_name" type="text" class="form-control">
 	                                        	</div>
 		                                    </div>
 		                                    <div class="col-sm-3">
 		                                        <div class="form-group label-floating">
-		                                            <label class="control-label">Street Number</label>
+		                                            <label class="control-label">Locality</label>
 		                                            <input name="street_number" type="text" class="form-control">
 		                                        </div>
 		                                    </div>
@@ -422,22 +422,27 @@
 		                                	<h4 class="info-text"> Some References for our consideration</h4>
 		                            	</div>
 		                            	<div class='row'>
-												<div class='col-sm-10 col-sm-offset-1'>
-													<div class='form-group'>
-														<label for="attend_reason">Why do you want to attend TEDxDTU2017?</label>
-														<textarea class="form-control has-validation required" name="registration[attend_reason]" id="attend_reason"></textarea>
-													</div>
+	                            			<div class='col-sm-10 col-sm-offset-1'>
+												<div class='form-group'>
+													<label for="know_reason">How do you come to know of TEDxDTU2017?</label>
+													<textarea class="form-control has-validation required" name="registration[know_reason]" id="know_reason"></textarea>
 												</div>
 											</div>
-											<div class='row'>
-												<div class='col-sm-10 col-sm-offset-1'>
-													<div class='form-group'>
-														<label for="idea_worth">According to you, what ideas are worth spreading and why?</label>
-														<textarea class="form-control" name="registration[idea_worth]" id="idea_worth"></textarea>
-													</div>
+											<div class='col-sm-10 col-sm-offset-1'>
+												<div class='form-group'>
+													<label for="attend_reason">Why do you want to attend TEDxDTU2017?</label>
+													<textarea class="form-control has-validation required" name="registration[attend_reason]" id="attend_reason"></textarea>
 												</div>
 											</div>
-		                        	</div></div>
+											<div class='col-sm-10 col-sm-offset-1'>
+												<div class='form-group'>
+													<label for="idea_worth">According to you, what ideas are worth spreading and why?</label>
+													<textarea class="form-control has-validation required" name="registration[idea_worth]" id="idea_worth"></textarea>
+												</div>
+											</div>
+										</div>
+		                        	</div>
+		                        </div>
 		                        <div class="wizard-footer">
 		                            <div class="pull-right">
 		                                <input type='button' class='btn btn-next btn-fill btn-danger btn-wd' name='next' value='Next' />
